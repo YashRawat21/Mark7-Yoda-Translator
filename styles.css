@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap'); */
 
 :root{
   --primary-color: black;
@@ -18,13 +18,17 @@ h1,h2,p {
   margin: 0;
 
 }
+#output-heading {
+  font-weight: bold;
+}
 
 #heading {
   font-size: 1.5rem;
   padding: 1.2rem 1rem;
   text-align: center;
   line-height: 3rem; 
-  text-shadow: 1px 1px var(--secondary-color);
+  /* text-shadow: 1px 1px var(--secondary-color); */
+  color: yellow;
 }
 
 .divider {
@@ -50,7 +54,7 @@ main {
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   margin: 1.5rem 0;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   font-size: 1.4rem;
   border: 1px solid var(--secondary-color);
   background-color: white;
@@ -60,6 +64,10 @@ main {
 .output-box {
   margin-top: 0.8rem;
   margin-bottom: 2rem;
+  width: 60%;
+}
+textarea {
+  font-weight: bold;
 }
 
 #translate-btn {
